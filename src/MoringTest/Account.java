@@ -52,3 +52,20 @@ class Account {
     return accountNumber + "\t" + accountHolder + "\t" + balance;
   }
 }
+
+
+//
+//public Chicken(int speed) {
+//  super. (speed);
+//}
+//
+//
+//@Override
+//int run(int speed) {
+//  setDistance(getSpeed() + speed);
+//  System.out.println("닭의 이동거리" + getDistance());
+//}
+//@Override
+//public void fly() {
+//  setSpeed(getSpeed() * 2);
+//}
