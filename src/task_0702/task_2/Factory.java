@@ -8,8 +8,8 @@ public abstract class Factory {
 
   public Factory(String name, int openHour, int closeHour) {
     this.name = name;
-  this.openHour = openHour;
-  this.closeHour = closeHour;
+    this.openHour = openHour;
+    this.closeHour = closeHour;
 
   }
 

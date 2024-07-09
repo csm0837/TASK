@@ -1,13 +1,15 @@
 package task_0702.task_1;
+
 public class AnimalTest {
+
   public static void main(String[] args) {
     Dog dog = new Dog(8);
     Chicken chicken = new Chicken(3);
     Chicken cheatableChicken = new Chicken(5);
 
-if(cheatableChicken instanceof Cheetable){
-  cheatableChicken.fly();
-}
+    if (cheatableChicken instanceof Cheetable) {
+      cheatableChicken.fly();
+    }
 
     for (int i = 1; i <= 3; i++) {
       dog.run(1);
